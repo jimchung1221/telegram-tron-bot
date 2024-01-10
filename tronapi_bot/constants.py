@@ -4,9 +4,11 @@
 # See License.txt in the project root for license information.
 # --------------------------------------------------------------------
 
+import os
+
 # To work with telegram bot
-BOT_NAME = ""
-BOT_TOKEN = ""
+BOT_NAME = os.environ["BOT_NAME"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 # To work with tronapi
 TRON_FULL_NODE = "https://api.trongrid.io"
